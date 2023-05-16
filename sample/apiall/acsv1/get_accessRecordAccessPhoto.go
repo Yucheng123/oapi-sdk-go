@@ -16,9 +16,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/service/acs/v1"
 )
 
 // GET /open-apis/acs/v1/access_records/:access_record_id/access_photo

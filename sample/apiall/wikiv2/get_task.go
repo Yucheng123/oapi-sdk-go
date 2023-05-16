@@ -16,9 +16,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/service/wiki/v2"
 )
 
 // GET /open-apis/wiki/v2/tasks/:task_id

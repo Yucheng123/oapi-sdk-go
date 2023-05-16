@@ -15,18 +15,11 @@ package main
 import (
 	"context"
 	"fmt"
-	larkhelpdesk "github.com/larksuite/oapi-sdk-go/v3/service/helpdesk/v1"
+	larkhelpdesk "github.com/Yucheng123/oapi-sdk-go/v3/service/helpdesk/v1"
 	"net/http"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/core/httpserverext"
-	"github.com/larksuite/oapi-sdk-go/v3/event"
-	"github.com/larksuite/oapi-sdk-go/v3/event/dispatcher"
-	"github.com/larksuite/oapi-sdk-go/v3/service/application/v6"
-	"github.com/larksuite/oapi-sdk-go/v3/service/approval/v4"
-	"github.com/larksuite/oapi-sdk-go/v3/service/contact/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/service/im/v1"
-	"github.com/larksuite/oapi-sdk-go/v3/service/meeting_room/v1"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core/httpserverext"
+	"github.com/Yucheng123/oapi-sdk-go/v3/event/dispatcher"
 )
 
 func main() {

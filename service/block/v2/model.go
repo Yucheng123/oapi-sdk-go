@@ -16,7 +16,7 @@ package larkblock
 import (
 	"fmt"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 type Entity struct {

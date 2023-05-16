@@ -16,9 +16,6 @@ import (
 	"fmt"
 	"net/http"
 	"time"
-
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
 )
 
 func createDefaultClient() {

@@ -17,7 +17,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 func NewService(config *larkcore.Config) *BitableService {
@@ -86,7 +86,7 @@ type appTableView struct {
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=copy&project=bitable&resource=app&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/copy_app.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/copy_app.go
 func (a *app) Copy(ctx context.Context, req *CopyAppReq, options ...larkcore.RequestOptionFunc) (*CopyAppResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -112,7 +112,7 @@ func (a *app) Copy(ctx context.Context, req *CopyAppReq, options ...larkcore.Req
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=create&project=bitable&resource=app&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_app.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_app.go
 func (a *app) Create(ctx context.Context, req *CreateAppReq, options ...larkcore.RequestOptionFunc) (*CreateAppResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -140,7 +140,7 @@ func (a *app) Create(ctx context.Context, req *CreateAppReq, options ...larkcore
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_app.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_app.go
 func (a *app) Get(ctx context.Context, req *GetAppReq, options ...larkcore.RequestOptionFunc) (*GetAppResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -170,7 +170,7 @@ func (a *app) Get(ctx context.Context, req *GetAppReq, options ...larkcore.Reque
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app/update
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_app.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_app.go
 func (a *app) Update(ctx context.Context, req *UpdateAppReq, options ...larkcore.RequestOptionFunc) (*UpdateAppResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -196,7 +196,7 @@ func (a *app) Update(ctx context.Context, req *UpdateAppReq, options ...larkcore
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-dashboard/copy
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/copy_appDashboard.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/copy_appDashboard.go
 func (a *appDashboard) Copy(ctx context.Context, req *CopyAppDashboardReq, options ...larkcore.RequestOptionFunc) (*CopyAppDashboardResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -224,7 +224,7 @@ func (a *appDashboard) Copy(ctx context.Context, req *CopyAppDashboardReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-dashboard/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appDashboard.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appDashboard.go
 func (a *appDashboard) List(ctx context.Context, req *ListAppDashboardReq, options ...larkcore.RequestOptionFunc) (*ListAppDashboardResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -258,7 +258,7 @@ func (a *appDashboard) ListByIterator(ctx context.Context, req *ListAppDashboard
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appRole.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appRole.go
 func (a *appRole) Create(ctx context.Context, req *CreateAppRoleReq, options ...larkcore.RequestOptionFunc) (*CreateAppRoleResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -284,7 +284,7 @@ func (a *appRole) Create(ctx context.Context, req *CreateAppRoleReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appRole.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appRole.go
 func (a *appRole) Delete(ctx context.Context, req *DeleteAppRoleReq, options ...larkcore.RequestOptionFunc) (*DeleteAppRoleResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -310,7 +310,7 @@ func (a *appRole) Delete(ctx context.Context, req *DeleteAppRoleReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appRole.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appRole.go
 func (a *appRole) List(ctx context.Context, req *ListAppRoleReq, options ...larkcore.RequestOptionFunc) (*ListAppRoleResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -346,7 +346,7 @@ func (a *appRole) ListByIterator(ctx context.Context, req *ListAppRoleReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role/update
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_appRole.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_appRole.go
 func (a *appRole) Update(ctx context.Context, req *UpdateAppRoleReq, options ...larkcore.RequestOptionFunc) (*UpdateAppRoleResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -372,7 +372,7 @@ func (a *appRole) Update(ctx context.Context, req *UpdateAppRoleReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role-member/batch_create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchCreate_appRoleMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchCreate_appRoleMember.go
 func (a *appRoleMember) BatchCreate(ctx context.Context, req *BatchCreateAppRoleMemberReq, options ...larkcore.RequestOptionFunc) (*BatchCreateAppRoleMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -398,7 +398,7 @@ func (a *appRoleMember) BatchCreate(ctx context.Context, req *BatchCreateAppRole
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role-member/batch_delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchDelete_appRoleMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchDelete_appRoleMember.go
 func (a *appRoleMember) BatchDelete(ctx context.Context, req *BatchDeleteAppRoleMemberReq, options ...larkcore.RequestOptionFunc) (*BatchDeleteAppRoleMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -424,7 +424,7 @@ func (a *appRoleMember) BatchDelete(ctx context.Context, req *BatchDeleteAppRole
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role-member/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appRoleMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appRoleMember.go
 func (a *appRoleMember) Create(ctx context.Context, req *CreateAppRoleMemberReq, options ...larkcore.RequestOptionFunc) (*CreateAppRoleMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -450,7 +450,7 @@ func (a *appRoleMember) Create(ctx context.Context, req *CreateAppRoleMemberReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role-member/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appRoleMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appRoleMember.go
 func (a *appRoleMember) Delete(ctx context.Context, req *DeleteAppRoleMemberReq, options ...larkcore.RequestOptionFunc) (*DeleteAppRoleMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -476,7 +476,7 @@ func (a *appRoleMember) Delete(ctx context.Context, req *DeleteAppRoleMemberReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-role-member/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appRoleMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appRoleMember.go
 func (a *appRoleMember) List(ctx context.Context, req *ListAppRoleMemberReq, options ...larkcore.RequestOptionFunc) (*ListAppRoleMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -512,7 +512,7 @@ func (a *appRoleMember) ListByIterator(ctx context.Context, req *ListAppRoleMemb
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table/batch_create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchCreate_appTable.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchCreate_appTable.go
 func (a *appTable) BatchCreate(ctx context.Context, req *BatchCreateAppTableReq, options ...larkcore.RequestOptionFunc) (*BatchCreateAppTableResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -540,7 +540,7 @@ func (a *appTable) BatchCreate(ctx context.Context, req *BatchCreateAppTableReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table/batch_delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchDelete_appTable.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchDelete_appTable.go
 func (a *appTable) BatchDelete(ctx context.Context, req *BatchDeleteAppTableReq, options ...larkcore.RequestOptionFunc) (*BatchDeleteAppTableResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -568,7 +568,7 @@ func (a *appTable) BatchDelete(ctx context.Context, req *BatchDeleteAppTableReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTable.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTable.go
 func (a *appTable) Create(ctx context.Context, req *CreateAppTableReq, options ...larkcore.RequestOptionFunc) (*CreateAppTableResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -596,7 +596,7 @@ func (a *appTable) Create(ctx context.Context, req *CreateAppTableReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTable.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTable.go
 func (a *appTable) Delete(ctx context.Context, req *DeleteAppTableReq, options ...larkcore.RequestOptionFunc) (*DeleteAppTableResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -624,7 +624,7 @@ func (a *appTable) Delete(ctx context.Context, req *DeleteAppTableReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTable.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTable.go
 func (a *appTable) List(ctx context.Context, req *ListAppTableReq, options ...larkcore.RequestOptionFunc) (*ListAppTableResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -658,7 +658,7 @@ func (a *appTable) ListByIterator(ctx context.Context, req *ListAppTableReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTable.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTable.go
 func (a *appTable) Patch(ctx context.Context, req *PatchAppTableReq, options ...larkcore.RequestOptionFunc) (*PatchAppTableResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -686,7 +686,7 @@ func (a *appTable) Patch(ctx context.Context, req *PatchAppTableReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-field/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTableField.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTableField.go
 func (a *appTableField) Create(ctx context.Context, req *CreateAppTableFieldReq, options ...larkcore.RequestOptionFunc) (*CreateAppTableFieldResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -714,7 +714,7 @@ func (a *appTableField) Create(ctx context.Context, req *CreateAppTableFieldReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-field/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTableField.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTableField.go
 func (a *appTableField) Delete(ctx context.Context, req *DeleteAppTableFieldReq, options ...larkcore.RequestOptionFunc) (*DeleteAppTableFieldResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -742,7 +742,7 @@ func (a *appTableField) Delete(ctx context.Context, req *DeleteAppTableFieldReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-field/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableField.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableField.go
 func (a *appTableField) List(ctx context.Context, req *ListAppTableFieldReq, options ...larkcore.RequestOptionFunc) (*ListAppTableFieldResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -778,7 +778,7 @@ func (a *appTableField) ListByIterator(ctx context.Context, req *ListAppTableFie
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-field/update
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_appTableField.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_appTableField.go
 func (a *appTableField) Update(ctx context.Context, req *UpdateAppTableFieldReq, options ...larkcore.RequestOptionFunc) (*UpdateAppTableFieldResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -806,7 +806,7 @@ func (a *appTableField) Update(ctx context.Context, req *UpdateAppTableFieldReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-form/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_appTableForm.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_appTableForm.go
 func (a *appTableForm) Get(ctx context.Context, req *GetAppTableFormReq, options ...larkcore.RequestOptionFunc) (*GetAppTableFormResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -834,7 +834,7 @@ func (a *appTableForm) Get(ctx context.Context, req *GetAppTableFormReq, options
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-form/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTableForm.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTableForm.go
 func (a *appTableForm) Patch(ctx context.Context, req *PatchAppTableFormReq, options ...larkcore.RequestOptionFunc) (*PatchAppTableFormResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -862,7 +862,7 @@ func (a *appTableForm) Patch(ctx context.Context, req *PatchAppTableFormReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-form-field/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableFormField.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableFormField.go
 func (a *appTableFormField) List(ctx context.Context, req *ListAppTableFormFieldReq, options ...larkcore.RequestOptionFunc) (*ListAppTableFormFieldResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -898,7 +898,7 @@ func (a *appTableFormField) ListByIterator(ctx context.Context, req *ListAppTabl
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-form-field/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTableFormField.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTableFormField.go
 func (a *appTableFormField) Patch(ctx context.Context, req *PatchAppTableFormFieldReq, options ...larkcore.RequestOptionFunc) (*PatchAppTableFormFieldResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -926,7 +926,7 @@ func (a *appTableFormField) Patch(ctx context.Context, req *PatchAppTableFormFie
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/batch_create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchCreate_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchCreate_appTableRecord.go
 func (a *appTableRecord) BatchCreate(ctx context.Context, req *BatchCreateAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*BatchCreateAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -954,7 +954,7 @@ func (a *appTableRecord) BatchCreate(ctx context.Context, req *BatchCreateAppTab
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/batch_delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchDelete_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchDelete_appTableRecord.go
 func (a *appTableRecord) BatchDelete(ctx context.Context, req *BatchDeleteAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*BatchDeleteAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -982,7 +982,7 @@ func (a *appTableRecord) BatchDelete(ctx context.Context, req *BatchDeleteAppTab
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/batch_update
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchUpdate_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/batchUpdate_appTableRecord.go
 func (a *appTableRecord) BatchUpdate(ctx context.Context, req *BatchUpdateAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*BatchUpdateAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1010,7 +1010,7 @@ func (a *appTableRecord) BatchUpdate(ctx context.Context, req *BatchUpdateAppTab
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTableRecord.go
 func (a *appTableRecord) Create(ctx context.Context, req *CreateAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*CreateAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1038,7 +1038,7 @@ func (a *appTableRecord) Create(ctx context.Context, req *CreateAppTableRecordRe
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTableRecord.go
 func (a *appTableRecord) Delete(ctx context.Context, req *DeleteAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*DeleteAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1066,7 +1066,7 @@ func (a *appTableRecord) Delete(ctx context.Context, req *DeleteAppTableRecordRe
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_appTableRecord.go
 func (a *appTableRecord) Get(ctx context.Context, req *GetAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*GetAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1094,7 +1094,7 @@ func (a *appTableRecord) Get(ctx context.Context, req *GetAppTableRecordReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableRecord.go
 func (a *appTableRecord) List(ctx context.Context, req *ListAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*ListAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1130,7 +1130,7 @@ func (a *appTableRecord) ListByIterator(ctx context.Context, req *ListAppTableRe
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-record/update
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_appTableRecord.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/update_appTableRecord.go
 func (a *appTableRecord) Update(ctx context.Context, req *UpdateAppTableRecordReq, options ...larkcore.RequestOptionFunc) (*UpdateAppTableRecordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1158,7 +1158,7 @@ func (a *appTableRecord) Update(ctx context.Context, req *UpdateAppTableRecordRe
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-view/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTableView.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/create_appTableView.go
 func (a *appTableView) Create(ctx context.Context, req *CreateAppTableViewReq, options ...larkcore.RequestOptionFunc) (*CreateAppTableViewResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1186,7 +1186,7 @@ func (a *appTableView) Create(ctx context.Context, req *CreateAppTableViewReq, o
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-view/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTableView.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/delete_appTableView.go
 func (a *appTableView) Delete(ctx context.Context, req *DeleteAppTableViewReq, options ...larkcore.RequestOptionFunc) (*DeleteAppTableViewResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1212,7 +1212,7 @@ func (a *appTableView) Delete(ctx context.Context, req *DeleteAppTableViewReq, o
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-view/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_appTableView.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/get_appTableView.go
 func (a *appTableView) Get(ctx context.Context, req *GetAppTableViewReq, options ...larkcore.RequestOptionFunc) (*GetAppTableViewResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1240,7 +1240,7 @@ func (a *appTableView) Get(ctx context.Context, req *GetAppTableViewReq, options
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-view/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableView.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/list_appTableView.go
 func (a *appTableView) List(ctx context.Context, req *ListAppTableViewReq, options ...larkcore.RequestOptionFunc) (*ListAppTableViewResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1274,7 +1274,7 @@ func (a *appTableView) ListByIterator(ctx context.Context, req *ListAppTableView
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/app-table-view/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTableView.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/bitablev1/patch_appTableView.go
 func (a *appTableView) Patch(ctx context.Context, req *PatchAppTableViewReq, options ...larkcore.RequestOptionFunc) (*PatchAppTableViewResp, error) {
 	// 发起请求
 	apiReq := req.apiReq

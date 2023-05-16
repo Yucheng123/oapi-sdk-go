@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net/http"
 
-	larkcore "github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/event"
+	larkcore "github.com/Yucheng123/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/event"
 )
 
 type EventDispatcher struct {

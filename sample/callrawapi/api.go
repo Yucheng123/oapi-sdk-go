@@ -15,13 +15,11 @@ package main
 import (
 	"context"
 	"fmt"
-	larkapproval "github.com/larksuite/oapi-sdk-go/v3/service/approval/v4"
+	larkapproval "github.com/Yucheng123/oapi-sdk-go/v3/service/approval/v4"
 	"net/http"
 	"os"
 
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	larkim "github.com/larksuite/oapi-sdk-go/v3/service/im/v1"
+	larkim "github.com/Yucheng123/oapi-sdk-go/v3/service/im/v1"
 )
 
 // 原生 API 调用推荐用法

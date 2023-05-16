@@ -16,9 +16,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/service/attendance/v1"
 )
 
 // GET /open-apis/attendance/v1/user_flows/:user_flow_id

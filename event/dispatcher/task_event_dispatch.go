@@ -15,7 +15,7 @@ package dispatcher
 
 import (
 	"context"
-	"github.com/larksuite/oapi-sdk-go/v3/service/task/v1"
+	"github.com/Yucheng123/oapi-sdk-go/v3/service/task/v1"
 )
 
 // 任务信息变更（租户维度）

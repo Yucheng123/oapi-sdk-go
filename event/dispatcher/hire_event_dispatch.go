@@ -15,7 +15,7 @@ package dispatcher
 
 import (
 	"context"
-	"github.com/larksuite/oapi-sdk-go/v3/service/hire/v1"
+	"github.com/Yucheng123/oapi-sdk-go/v3/service/hire/v1"
 )
 
 //

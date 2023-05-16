@@ -17,7 +17,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 func NewService(config *larkcore.Config) *TenantService {
@@ -48,7 +48,7 @@ type tenantProductAssignInfo struct {
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/tenant-v2/tenant/query
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/tenantv2/query_tenant.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/tenantv2/query_tenant.go
 func (t *tenant) Query(ctx context.Context, options ...larkcore.RequestOptionFunc) (*QueryTenantResp, error) {
 	// 发起请求
 	apiReq := &larkcore.ApiReq{
@@ -77,7 +77,7 @@ func (t *tenant) Query(ctx context.Context, options ...larkcore.RequestOptionFun
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=query&project=tenant&resource=tenant.product_assign_info&version=v2
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/tenantv2/query_tenantProductAssignInfo.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/tenantv2/query_tenantProductAssignInfo.go
 func (t *tenantProductAssignInfo) Query(ctx context.Context, options ...larkcore.RequestOptionFunc) (*QueryTenantProductAssignInfoResp, error) {
 	// 发起请求
 	apiReq := &larkcore.ApiReq{

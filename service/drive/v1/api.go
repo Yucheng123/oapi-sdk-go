@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 func NewService(config *larkcore.Config) *DriveService {
@@ -102,7 +102,7 @@ type permissionPublicPassword struct {
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/export_task/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_exportTask.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_exportTask.go
 func (e *exportTask) Create(ctx context.Context, req *CreateExportTaskReq, options ...larkcore.RequestOptionFunc) (*CreateExportTaskResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -128,7 +128,7 @@ func (e *exportTask) Create(ctx context.Context, req *CreateExportTaskReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/export_task/download
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/download_exportTask.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/download_exportTask.go
 func (e *exportTask) Download(ctx context.Context, req *DownloadExportTaskReq, options ...larkcore.RequestOptionFunc) (*DownloadExportTaskResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -160,7 +160,7 @@ func (e *exportTask) Download(ctx context.Context, req *DownloadExportTaskReq, o
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/export_task/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_exportTask.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_exportTask.go
 func (e *exportTask) Get(ctx context.Context, req *GetExportTaskReq, options ...larkcore.RequestOptionFunc) (*GetExportTaskResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -188,7 +188,7 @@ func (e *exportTask) Get(ctx context.Context, req *GetExportTaskReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/copy
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/copy_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/copy_file.go
 func (f *file) Copy(ctx context.Context, req *CopyFileReq, options ...larkcore.RequestOptionFunc) (*CopyFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -216,7 +216,7 @@ func (f *file) Copy(ctx context.Context, req *CopyFileReq, options ...larkcore.R
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/create_folder
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/createFolder_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/createFolder_file.go
 func (f *file) CreateFolder(ctx context.Context, req *CreateFolderFileReq, options ...larkcore.RequestOptionFunc) (*CreateFolderFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -242,7 +242,7 @@ func (f *file) CreateFolder(ctx context.Context, req *CreateFolderFileReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=create_shortcut&project=drive&resource=file&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/createShortcut_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/createShortcut_file.go
 func (f *file) CreateShortcut(ctx context.Context, req *CreateShortcutFileReq, options ...larkcore.RequestOptionFunc) (*CreateShortcutFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -272,7 +272,7 @@ func (f *file) CreateShortcut(ctx context.Context, req *CreateShortcutFileReq, o
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_file.go
 func (f *file) Delete(ctx context.Context, req *DeleteFileReq, options ...larkcore.RequestOptionFunc) (*DeleteFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -300,7 +300,7 @@ func (f *file) Delete(ctx context.Context, req *DeleteFileReq, options ...larkco
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/download
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/download_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/download_file.go
 func (f *file) Download(ctx context.Context, req *DownloadFileReq, options ...larkcore.RequestOptionFunc) (*DownloadFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -332,7 +332,7 @@ func (f *file) Download(ctx context.Context, req *DownloadFileReq, options ...la
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_file.go
 func (f *file) List(ctx context.Context, req *ListFileReq, options ...larkcore.RequestOptionFunc) (*ListFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -358,7 +358,7 @@ func (f *file) List(ctx context.Context, req *ListFileReq, options ...larkcore.R
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/move
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/move_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/move_file.go
 func (f *file) Move(ctx context.Context, req *MoveFileReq, options ...larkcore.RequestOptionFunc) (*MoveFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -384,7 +384,7 @@ func (f *file) Move(ctx context.Context, req *MoveFileReq, options ...larkcore.R
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/subscribe
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/subscribe_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/subscribe_file.go
 func (f *file) Subscribe(ctx context.Context, req *SubscribeFileReq, options ...larkcore.RequestOptionFunc) (*SubscribeFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -410,7 +410,7 @@ func (f *file) Subscribe(ctx context.Context, req *SubscribeFileReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/task_check
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/taskCheck_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/taskCheck_file.go
 func (f *file) TaskCheck(ctx context.Context, req *TaskCheckFileReq, options ...larkcore.RequestOptionFunc) (*TaskCheckFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -440,7 +440,7 @@ func (f *file) TaskCheck(ctx context.Context, req *TaskCheckFileReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/upload_all
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadAll_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadAll_file.go
 func (f *file) UploadAll(ctx context.Context, req *UploadAllFileReq, options ...larkcore.RequestOptionFunc) (*UploadAllFileResp, error) {
 	options = append(options, larkcore.WithFileUpload())
 	// 发起请求
@@ -469,7 +469,7 @@ func (f *file) UploadAll(ctx context.Context, req *UploadAllFileReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/upload_finish
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadFinish_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadFinish_file.go
 func (f *file) UploadFinish(ctx context.Context, req *UploadFinishFileReq, options ...larkcore.RequestOptionFunc) (*UploadFinishFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -497,7 +497,7 @@ func (f *file) UploadFinish(ctx context.Context, req *UploadFinishFileReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/upload_part
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPart_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPart_file.go
 func (f *file) UploadPart(ctx context.Context, req *UploadPartFileReq, options ...larkcore.RequestOptionFunc) (*UploadPartFileResp, error) {
 	options = append(options, larkcore.WithFileUpload())
 	// 发起请求
@@ -528,7 +528,7 @@ func (f *file) UploadPart(ctx context.Context, req *UploadPartFileReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file/upload_prepare
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPrepare_file.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPrepare_file.go
 func (f *file) UploadPrepare(ctx context.Context, req *UploadPrepareFileReq, options ...larkcore.RequestOptionFunc) (*UploadPrepareFileResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -554,7 +554,7 @@ func (f *file) UploadPrepare(ctx context.Context, req *UploadPrepareFileReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-comment/batch_query
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/batchQuery_fileComment.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/batchQuery_fileComment.go
 func (f *fileComment) BatchQuery(ctx context.Context, req *BatchQueryFileCommentReq, options ...larkcore.RequestOptionFunc) (*BatchQueryFileCommentResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -580,7 +580,7 @@ func (f *fileComment) BatchQuery(ctx context.Context, req *BatchQueryFileComment
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-comment/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_fileComment.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_fileComment.go
 func (f *fileComment) Create(ctx context.Context, req *CreateFileCommentReq, options ...larkcore.RequestOptionFunc) (*CreateFileCommentResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -606,7 +606,7 @@ func (f *fileComment) Create(ctx context.Context, req *CreateFileCommentReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-comment/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileComment.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileComment.go
 func (f *fileComment) Get(ctx context.Context, req *GetFileCommentReq, options ...larkcore.RequestOptionFunc) (*GetFileCommentResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -632,7 +632,7 @@ func (f *fileComment) Get(ctx context.Context, req *GetFileCommentReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-comment/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_fileComment.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_fileComment.go
 func (f *fileComment) List(ctx context.Context, req *ListFileCommentReq, options ...larkcore.RequestOptionFunc) (*ListFileCommentResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -666,7 +666,7 @@ func (f *fileComment) ListByIterator(ctx context.Context, req *ListFileCommentRe
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-comment/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/patch_fileComment.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/patch_fileComment.go
 func (f *fileComment) Patch(ctx context.Context, req *PatchFileCommentReq, options ...larkcore.RequestOptionFunc) (*PatchFileCommentResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -692,7 +692,7 @@ func (f *fileComment) Patch(ctx context.Context, req *PatchFileCommentReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-comment-reply/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_fileCommentReply.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_fileCommentReply.go
 func (f *fileCommentReply) Delete(ctx context.Context, req *DeleteFileCommentReplyReq, options ...larkcore.RequestOptionFunc) (*DeleteFileCommentReplyResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -718,7 +718,7 @@ func (f *fileCommentReply) Delete(ctx context.Context, req *DeleteFileCommentRep
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-comment-reply/update
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/update_fileCommentReply.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/update_fileCommentReply.go
 func (f *fileCommentReply) Update(ctx context.Context, req *UpdateFileCommentReplyReq, options ...larkcore.RequestOptionFunc) (*UpdateFileCommentReplyResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -744,7 +744,7 @@ func (f *fileCommentReply) Update(ctx context.Context, req *UpdateFileCommentRep
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-statistics/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileStatistics.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileStatistics.go
 func (f *fileStatistics) Get(ctx context.Context, req *GetFileStatisticsReq, options ...larkcore.RequestOptionFunc) (*GetFileStatisticsResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -770,7 +770,7 @@ func (f *fileStatistics) Get(ctx context.Context, req *GetFileStatisticsReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-subscription/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_fileSubscription.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_fileSubscription.go
 func (f *fileSubscription) Create(ctx context.Context, req *CreateFileSubscriptionReq, options ...larkcore.RequestOptionFunc) (*CreateFileSubscriptionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -796,7 +796,7 @@ func (f *fileSubscription) Create(ctx context.Context, req *CreateFileSubscripti
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-subscription/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileSubscription.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileSubscription.go
 func (f *fileSubscription) Get(ctx context.Context, req *GetFileSubscriptionReq, options ...larkcore.RequestOptionFunc) (*GetFileSubscriptionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -822,7 +822,7 @@ func (f *fileSubscription) Get(ctx context.Context, req *GetFileSubscriptionReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-subscription/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/patch_fileSubscription.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/patch_fileSubscription.go
 func (f *fileSubscription) Patch(ctx context.Context, req *PatchFileSubscriptionReq, options ...larkcore.RequestOptionFunc) (*PatchFileSubscriptionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -848,7 +848,7 @@ func (f *fileSubscription) Patch(ctx context.Context, req *PatchFileSubscription
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-version/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_fileVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_fileVersion.go
 func (f *fileVersion) Create(ctx context.Context, req *CreateFileVersionReq, options ...larkcore.RequestOptionFunc) (*CreateFileVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -874,7 +874,7 @@ func (f *fileVersion) Create(ctx context.Context, req *CreateFileVersionReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-version/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_fileVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_fileVersion.go
 func (f *fileVersion) Delete(ctx context.Context, req *DeleteFileVersionReq, options ...larkcore.RequestOptionFunc) (*DeleteFileVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -900,7 +900,7 @@ func (f *fileVersion) Delete(ctx context.Context, req *DeleteFileVersionReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-version/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_fileVersion.go
 func (f *fileVersion) Get(ctx context.Context, req *GetFileVersionReq, options ...larkcore.RequestOptionFunc) (*GetFileVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -926,7 +926,7 @@ func (f *fileVersion) Get(ctx context.Context, req *GetFileVersionReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/file-version/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_fileVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_fileVersion.go
 func (f *fileVersion) List(ctx context.Context, req *ListFileVersionReq, options ...larkcore.RequestOptionFunc) (*ListFileVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -960,7 +960,7 @@ func (f *fileVersion) ListByIterator(ctx context.Context, req *ListFileVersionRe
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/import_task/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_importTask.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_importTask.go
 func (i *importTask) Create(ctx context.Context, req *CreateImportTaskReq, options ...larkcore.RequestOptionFunc) (*CreateImportTaskResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -986,7 +986,7 @@ func (i *importTask) Create(ctx context.Context, req *CreateImportTaskReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/import_task/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_importTask.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_importTask.go
 func (i *importTask) Get(ctx context.Context, req *GetImportTaskReq, options ...larkcore.RequestOptionFunc) (*GetImportTaskResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1014,7 +1014,7 @@ func (i *importTask) Get(ctx context.Context, req *GetImportTaskReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/media/batch_get_tmp_download_url
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/batchGetTmpDownloadUrl_media.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/batchGetTmpDownloadUrl_media.go
 func (m *media) BatchGetTmpDownloadUrl(ctx context.Context, req *BatchGetTmpDownloadUrlMediaReq, options ...larkcore.RequestOptionFunc) (*BatchGetTmpDownloadUrlMediaResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1042,7 +1042,7 @@ func (m *media) BatchGetTmpDownloadUrl(ctx context.Context, req *BatchGetTmpDown
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/media/download
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/download_media.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/download_media.go
 func (m *media) Download(ctx context.Context, req *DownloadMediaReq, options ...larkcore.RequestOptionFunc) (*DownloadMediaResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1078,7 +1078,7 @@ func (m *media) Download(ctx context.Context, req *DownloadMediaReq, options ...
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/media/upload_all
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadAll_media.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadAll_media.go
 func (m *media) UploadAll(ctx context.Context, req *UploadAllMediaReq, options ...larkcore.RequestOptionFunc) (*UploadAllMediaResp, error) {
 	options = append(options, larkcore.WithFileUpload())
 	// 发起请求
@@ -1107,7 +1107,7 @@ func (m *media) UploadAll(ctx context.Context, req *UploadAllMediaReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/media/upload_finish
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadFinish_media.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadFinish_media.go
 func (m *media) UploadFinish(ctx context.Context, req *UploadFinishMediaReq, options ...larkcore.RequestOptionFunc) (*UploadFinishMediaResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1135,7 +1135,7 @@ func (m *media) UploadFinish(ctx context.Context, req *UploadFinishMediaReq, opt
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/media/upload_part
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPart_media.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPart_media.go
 func (m *media) UploadPart(ctx context.Context, req *UploadPartMediaReq, options ...larkcore.RequestOptionFunc) (*UploadPartMediaResp, error) {
 	options = append(options, larkcore.WithFileUpload())
 	// 发起请求
@@ -1166,7 +1166,7 @@ func (m *media) UploadPart(ctx context.Context, req *UploadPartMediaReq, options
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/media/upload_prepare
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPrepare_media.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/uploadPrepare_media.go
 func (m *media) UploadPrepare(ctx context.Context, req *UploadPrepareMediaReq, options ...larkcore.RequestOptionFunc) (*UploadPrepareMediaResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1192,7 +1192,7 @@ func (m *media) UploadPrepare(ctx context.Context, req *UploadPrepareMediaReq, o
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/meta/batch_query
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/batchQuery_meta.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/batchQuery_meta.go
 func (m *meta) BatchQuery(ctx context.Context, req *BatchQueryMetaReq, options ...larkcore.RequestOptionFunc) (*BatchQueryMetaResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1218,7 +1218,7 @@ func (m *meta) BatchQuery(ctx context.Context, req *BatchQueryMetaReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=auth&project=drive&resource=permission.member&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/auth_permissionMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/auth_permissionMember.go
 func (p *permissionMember) Auth(ctx context.Context, req *AuthPermissionMemberReq, options ...larkcore.RequestOptionFunc) (*AuthPermissionMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1244,7 +1244,7 @@ func (p *permissionMember) Auth(ctx context.Context, req *AuthPermissionMemberRe
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/permission-member/create
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_permissionMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_permissionMember.go
 func (p *permissionMember) Create(ctx context.Context, req *CreatePermissionMemberReq, options ...larkcore.RequestOptionFunc) (*CreatePermissionMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1270,7 +1270,7 @@ func (p *permissionMember) Create(ctx context.Context, req *CreatePermissionMemb
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/permission-member/delete
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_permissionMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_permissionMember.go
 func (p *permissionMember) Delete(ctx context.Context, req *DeletePermissionMemberReq, options ...larkcore.RequestOptionFunc) (*DeletePermissionMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1298,7 +1298,7 @@ func (p *permissionMember) Delete(ctx context.Context, req *DeletePermissionMemb
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/permission-member/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_permissionMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/list_permissionMember.go
 func (p *permissionMember) List(ctx context.Context, req *ListPermissionMemberReq, options ...larkcore.RequestOptionFunc) (*ListPermissionMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1324,7 +1324,7 @@ func (p *permissionMember) List(ctx context.Context, req *ListPermissionMemberRe
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=transfer_owner&project=drive&resource=permission.member&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/transferOwner_permissionMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/transferOwner_permissionMember.go
 func (p *permissionMember) TransferOwner(ctx context.Context, req *TransferOwnerPermissionMemberReq, options ...larkcore.RequestOptionFunc) (*TransferOwnerPermissionMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1352,7 +1352,7 @@ func (p *permissionMember) TransferOwner(ctx context.Context, req *TransferOwner
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/permission-member/update
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/update_permissionMember.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/update_permissionMember.go
 func (p *permissionMember) Update(ctx context.Context, req *UpdatePermissionMemberReq, options ...larkcore.RequestOptionFunc) (*UpdatePermissionMemberResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1378,7 +1378,7 @@ func (p *permissionMember) Update(ctx context.Context, req *UpdatePermissionMemb
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/permission-public/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_permissionPublic.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/get_permissionPublic.go
 func (p *permissionPublic) Get(ctx context.Context, req *GetPermissionPublicReq, options ...larkcore.RequestOptionFunc) (*GetPermissionPublicResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1404,7 +1404,7 @@ func (p *permissionPublic) Get(ctx context.Context, req *GetPermissionPublicReq,
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/reference/drive-v1/permission-public/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/patch_permissionPublic.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/patch_permissionPublic.go
 func (p *permissionPublic) Patch(ctx context.Context, req *PatchPermissionPublicReq, options ...larkcore.RequestOptionFunc) (*PatchPermissionPublicResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1430,7 +1430,7 @@ func (p *permissionPublic) Patch(ctx context.Context, req *PatchPermissionPublic
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=create&project=drive&resource=permission.public.password&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_permissionPublicPassword.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/create_permissionPublicPassword.go
 func (p *permissionPublicPassword) Create(ctx context.Context, req *CreatePermissionPublicPasswordReq, options ...larkcore.RequestOptionFunc) (*CreatePermissionPublicPasswordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1456,7 +1456,7 @@ func (p *permissionPublicPassword) Create(ctx context.Context, req *CreatePermis
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=delete&project=drive&resource=permission.public.password&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_permissionPublicPassword.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/delete_permissionPublicPassword.go
 func (p *permissionPublicPassword) Delete(ctx context.Context, req *DeletePermissionPublicPasswordReq, options ...larkcore.RequestOptionFunc) (*DeletePermissionPublicPasswordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -1482,7 +1482,7 @@ func (p *permissionPublicPassword) Delete(ctx context.Context, req *DeletePermis
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=update&project=drive&resource=permission.public.password&version=v1
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/update_permissionPublicPassword.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/drivev1/update_permissionPublicPassword.go
 func (p *permissionPublicPassword) Update(ctx context.Context, req *UpdatePermissionPublicPasswordReq, options ...larkcore.RequestOptionFunc) (*UpdatePermissionPublicPasswordResp, error) {
 	// 发起请求
 	apiReq := req.apiReq

@@ -15,10 +15,10 @@ package main
 import (
 	"context"
 	"fmt"
+	lark "github.com/Yucheng123/oapi-sdk-go/v3"
+	larkcore "github.com/Yucheng123/oapi-sdk-go/v3/core"
+	larkim "github.com/Yucheng123/oapi-sdk-go/v3/service/im/v1"
 	"github.com/bytedance/sonic"
-	lark "github.com/larksuite/oapi-sdk-go/v3"
-	larkcore "github.com/larksuite/oapi-sdk-go/v3/core"
-	larkim "github.com/larksuite/oapi-sdk-go/v3/service/im/v1"
 	"net"
 	"net/http"
 	"net/url"

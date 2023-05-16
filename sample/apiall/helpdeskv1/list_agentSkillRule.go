@@ -16,8 +16,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
 )
 
 // GET /open-apis/helpdesk/v1/agent_skill_rules

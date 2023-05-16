@@ -20,10 +20,6 @@ import (
 	"io/ioutil"
 	"net/http"
 	"strings"
-
-	"github.com/larksuite/oapi-sdk-go/v3/card"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/event"
 )
 
 func mockCardAction() []byte {

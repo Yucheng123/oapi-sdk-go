@@ -16,9 +16,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/service/contact/v3"
 )
 
 // GET /open-apis/contact/v3/functional_roles/:role_id/members

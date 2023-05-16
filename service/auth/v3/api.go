@@ -17,7 +17,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 func NewService(config *larkcore.Config) *AuthService {
@@ -51,7 +51,7 @@ type tenantAccessToken struct {
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=create&project=auth&resource=app_access_token&version=v3
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/create_appAccessToken.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/create_appAccessToken.go
 func (a *appAccessToken) Create(ctx context.Context, req *CreateAppAccessTokenReq, options ...larkcore.RequestOptionFunc) (*CreateAppAccessTokenResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -77,7 +77,7 @@ func (a *appAccessToken) Create(ctx context.Context, req *CreateAppAccessTokenRe
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=internal&project=auth&resource=app_access_token&version=v3
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/internal_appAccessToken.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/internal_appAccessToken.go
 func (a *appAccessToken) Internal(ctx context.Context, req *InternalAppAccessTokenReq, options ...larkcore.RequestOptionFunc) (*InternalAppAccessTokenResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -103,7 +103,7 @@ func (a *appAccessToken) Internal(ctx context.Context, req *InternalAppAccessTok
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=resend&project=auth&resource=app_ticket&version=v3
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/resend_appTicket.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/resend_appTicket.go
 func (a *appTicket) Resend(ctx context.Context, req *ResendAppTicketReq, options ...larkcore.RequestOptionFunc) (*ResendAppTicketResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -129,7 +129,7 @@ func (a *appTicket) Resend(ctx context.Context, req *ResendAppTicketReq, options
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=create&project=auth&resource=tenant_access_token&version=v3
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/create_tenantAccessToken.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/create_tenantAccessToken.go
 func (t *tenantAccessToken) Create(ctx context.Context, req *CreateTenantAccessTokenReq, options ...larkcore.RequestOptionFunc) (*CreateTenantAccessTokenResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -155,7 +155,7 @@ func (t *tenantAccessToken) Create(ctx context.Context, req *CreateTenantAccessT
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=internal&project=auth&resource=tenant_access_token&version=v3
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/internal_tenantAccessToken.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/authv3/internal_tenantAccessToken.go
 func (t *tenantAccessToken) Internal(ctx context.Context, req *InternalTenantAccessTokenReq, options ...larkcore.RequestOptionFunc) (*InternalTenantAccessTokenResp, error) {
 	// 发起请求
 	apiReq := req.apiReq

@@ -19,9 +19,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/larksuite/oapi-sdk-go/v3/event"
+	"github.com/Yucheng123/oapi-sdk-go/v3/event"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 const (

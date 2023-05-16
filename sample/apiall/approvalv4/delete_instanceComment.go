@@ -16,9 +16,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/larksuite/oapi-sdk-go/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/service/approval/v4"
 )
 
 // DELETE /open-apis/approval/v4/instances/:instance_id/comments/:comment_id

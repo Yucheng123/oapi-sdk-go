@@ -19,10 +19,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
-	"github.com/larksuite/oapi-sdk-go/v3/event"
-	"github.com/larksuite/oapi-sdk-go/v3/service/contact/v3"
-	"github.com/larksuite/oapi-sdk-go/v3/service/im/v1"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/event"
+	"github.com/Yucheng123/oapi-sdk-go/v3/service/contact/v3"
+	"github.com/Yucheng123/oapi-sdk-go/v3/service/im/v1"
 )
 
 func mockEncryptedBody(encrypteKey string) []byte {

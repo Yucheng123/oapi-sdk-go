@@ -17,7 +17,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 func NewService(config *larkcore.Config) *ApplicationService {
@@ -71,7 +71,7 @@ type bot struct {
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/app_recommend_rule/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/list_appRecommendRule.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/list_appRecommendRule.go
 func (a *appRecommendRule) List(ctx context.Context, req *ListAppRecommendRuleReq, options ...larkcore.RequestOptionFunc) (*ListAppRecommendRuleResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -105,7 +105,7 @@ func (a *appRecommendRule) ListByIterator(ctx context.Context, req *ListAppRecom
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=contacts_range_configuration&project=application&resource=application&version=v6
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/contactsRangeConfiguration_application.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/contactsRangeConfiguration_application.go
 func (a *application) ContactsRangeConfiguration(ctx context.Context, req *ContactsRangeConfigurationApplicationReq, options ...larkcore.RequestOptionFunc) (*ContactsRangeConfigurationApplicationResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -131,7 +131,7 @@ func (a *application) ContactsRangeConfiguration(ctx context.Context, req *Conta
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/get_application.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/get_application.go
 func (a *application) Get(ctx context.Context, req *GetApplicationReq, options ...larkcore.RequestOptionFunc) (*GetApplicationResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -157,7 +157,7 @@ func (a *application) Get(ctx context.Context, req *GetApplicationReq, options .
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/patch_application.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/patch_application.go
 func (a *application) Patch(ctx context.Context, req *PatchApplicationReq, options ...larkcore.RequestOptionFunc) (*PatchApplicationResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -183,7 +183,7 @@ func (a *application) Patch(ctx context.Context, req *PatchApplicationReq, optio
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application/underauditlist
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/underauditlist_application.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/underauditlist_application.go
 func (a *application) Underauditlist(ctx context.Context, req *UnderauditlistApplicationReq, options ...larkcore.RequestOptionFunc) (*UnderauditlistApplicationResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -219,7 +219,7 @@ func (a *application) UnderauditlistByIterator(ctx context.Context, req *Underau
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application-app_usage/overview
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/overview_applicationAppUsage.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/overview_applicationAppUsage.go
 func (a *applicationAppUsage) Overview(ctx context.Context, req *OverviewApplicationAppUsageReq, options ...larkcore.RequestOptionFunc) (*OverviewApplicationAppUsageResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -245,7 +245,7 @@ func (a *applicationAppUsage) Overview(ctx context.Context, req *OverviewApplica
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=contacts_range_suggest&project=application&resource=application.app_version&version=v6
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/contactsRangeSuggest_applicationAppVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/contactsRangeSuggest_applicationAppVersion.go
 func (a *applicationAppVersion) ContactsRangeSuggest(ctx context.Context, req *ContactsRangeSuggestApplicationAppVersionReq, options ...larkcore.RequestOptionFunc) (*ContactsRangeSuggestApplicationAppVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -271,7 +271,7 @@ func (a *applicationAppVersion) ContactsRangeSuggest(ctx context.Context, req *C
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application-app_version/get
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/get_applicationAppVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/get_applicationAppVersion.go
 func (a *applicationAppVersion) Get(ctx context.Context, req *GetApplicationAppVersionReq, options ...larkcore.RequestOptionFunc) (*GetApplicationAppVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -297,7 +297,7 @@ func (a *applicationAppVersion) Get(ctx context.Context, req *GetApplicationAppV
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application-app_version/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/list_applicationAppVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/list_applicationAppVersion.go
 func (a *applicationAppVersion) List(ctx context.Context, req *ListApplicationAppVersionReq, options ...larkcore.RequestOptionFunc) (*ListApplicationAppVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -331,7 +331,7 @@ func (a *applicationAppVersion) ListByIterator(ctx context.Context, req *ListApp
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application-app_version/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/patch_applicationAppVersion.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/patch_applicationAppVersion.go
 func (a *applicationAppVersion) Patch(ctx context.Context, req *PatchApplicationAppVersionReq, options ...larkcore.RequestOptionFunc) (*PatchApplicationAppVersionResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -357,7 +357,7 @@ func (a *applicationAppVersion) Patch(ctx context.Context, req *PatchApplication
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application-feedback/list
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/list_applicationFeedback.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/list_applicationFeedback.go
 func (a *applicationFeedback) List(ctx context.Context, req *ListApplicationFeedbackReq, options ...larkcore.RequestOptionFunc) (*ListApplicationFeedbackResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -383,7 +383,7 @@ func (a *applicationFeedback) List(ctx context.Context, req *ListApplicationFeed
 //
 // - 官网API文档链接:https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/application-v6/application-feedback/patch
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/patch_applicationFeedback.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/patch_applicationFeedback.go
 func (a *applicationFeedback) Patch(ctx context.Context, req *PatchApplicationFeedbackReq, options ...larkcore.RequestOptionFunc) (*PatchApplicationFeedbackResp, error) {
 	// 发起请求
 	apiReq := req.apiReq
@@ -409,7 +409,7 @@ func (a *applicationFeedback) Patch(ctx context.Context, req *PatchApplicationFe
 //
 // - 官网API文档链接:https://open.feishu.cn/api-explorer?from=op_doc_tab&apiName=check_white_black_list&project=application&resource=application.visibility&version=v6
 //
-// - 使用Demo链接:https://github.com/larksuite/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/checkWhiteBlackList_applicationVisibility.go
+// - 使用Demo链接:https://github.com/Yucheng123/oapi-sdk-go/tree/v3_main/sample/apiall/applicationv6/checkWhiteBlackList_applicationVisibility.go
 func (a *applicationVisibility) CheckWhiteBlackList(ctx context.Context, req *CheckWhiteBlackListApplicationVisibilityReq, options ...larkcore.RequestOptionFunc) (*CheckWhiteBlackListApplicationVisibilityResp, error) {
 	// 发起请求
 	apiReq := req.apiReq

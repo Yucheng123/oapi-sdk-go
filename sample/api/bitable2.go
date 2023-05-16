@@ -18,11 +18,11 @@ import (
 	"os"
 	"time"
 
-	lark "github.com/larksuite/oapi-sdk-go/v3"
-	larkcore "github.com/larksuite/oapi-sdk-go/v3/core"
-	larkbitable "github.com/larksuite/oapi-sdk-go/v3/service/bitable/v1"
-	larkdrive "github.com/larksuite/oapi-sdk-go/v3/service/drive/v1"
-	larkext "github.com/larksuite/oapi-sdk-go/v3/service/ext"
+	lark "github.com/Yucheng123/oapi-sdk-go/v3"
+	larkcore "github.com/Yucheng123/oapi-sdk-go/v3/core"
+	larkbitable "github.com/Yucheng123/oapi-sdk-go/v3/service/bitable/v1"
+	larkdrive "github.com/Yucheng123/oapi-sdk-go/v3/service/drive/v1"
+	larkext "github.com/Yucheng123/oapi-sdk-go/v3/service/ext"
 )
 
 func batchAdd(client *lark.Client) {

@@ -16,7 +16,7 @@ import (
 	"context"
 	"net/http"
 
-	larkcore "github.com/larksuite/oapi-sdk-go/v3/core"
+	larkcore "github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 func NewService(config *larkcore.Config) *ExtService {

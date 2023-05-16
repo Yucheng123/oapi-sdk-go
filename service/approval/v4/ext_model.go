@@ -12,7 +12,7 @@
 
 package larkapproval
 
-import larkevent "github.com/larksuite/oapi-sdk-go/v3/event"
+import larkevent "github.com/Yucheng123/oapi-sdk-go/v3/event"
 
 type P1LeaveApprovalV4 struct {
 	*larkevent.EventReq

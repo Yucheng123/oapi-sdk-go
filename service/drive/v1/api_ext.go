@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/larksuite/oapi-sdk-go/v3/core"
+	"github.com/Yucheng123/oapi-sdk-go/v3/core"
 )
 
 func (f *file) ListByIterator(ctx context.Context, req *ListFileReq, options ...larkcore.RequestOptionFunc) (*ListFileIterator, error) {
